@@ -1,0 +1,157 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+/*____________________________________________________________________________________________________*/
+#menu-barra{
+  color: white
+}
+
+#menu-nav{
+  color: black
+}
+
+#logo-menu{
+  width: 10%;
+}
+
+#text-menu{
+  color: white;
+}
+
+.imagen1{
+  width: 100%
+}
+
+.logo-nav{
+  width: 8%;
+  margin: 10px
+}
+
+.texto1{
+  color: black;
+  text-align: center
+}
+
+.texto2{
+  color: black;
+  text-align: center
+}
+
+.videos_cura{
+  width: 350px;
+  height: 350px;
+}
+
+
+.cantantes-pres{
+  margin: 20px;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 80px;
+}
+
+.imagenes-centrar{
+  margin: 0 auto;
+  width: 100%;
+  background-color: black;
+}
+
+.imagenes_slider{
+  position: absolute;
+}
+
+.violenciascaja{
+  width: 1050px;
+  height:220px;
+  margin: 0 auto !important;
+  padding: 0 auto !important;
+
+}
+
+.fotocantantes{
+  background-color: red;
+  width: 1050px;
+  height:360px;
+  margin: 0 auto !important;
+  padding: 0 auto !important;
+  border: 1px solid black;
+}
+
+.margencantantes{
+  margin: 0 auto!important;
+}
+
+@media only screen and (max-width : 602px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+
+  #logo-menu{
+    width: 13%;
+  }
+
+  .video-cura{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+
+  img .img-baner{
+    visibility: hidden;
+  }
+}
+
+
+@media only screen and (max-width : 700px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  #logo-menu{
+    width: 20%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+}
